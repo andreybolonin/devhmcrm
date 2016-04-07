@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79f049f6-7f09-4ccb-a48a-a803becef9f0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/ApplicationSonataUserBundle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Document/Group.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Document/User.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Entity/Group.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Entity/User.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Resources/config/doctrine/Group.mongodb.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Resources/config/doctrine/Group.orm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Resources/config/doctrine/User.mongodb.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Resources/config/doctrine/User.orm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Resources/config/serializer/Document.Group.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Resources/config/serializer/Document.User.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Resources/config/serializer/Entity.Group.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Resources/config/serializer/Entity.User.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Resources/views/Registration/register_content.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Resources/views/Security/login.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
     </list>
     <ignored path="devhmcrm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,14 +25,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
-              <folding>
-                <element signature="e#40#99#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="252">
+              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -64,7 +48,7 @@
       <file leaf-file-name="Company.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Company.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1044">
+            <state relative-caret-position="177">
               <caret line="60" column="45" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="45" />
               <folding />
             </state>
@@ -103,7 +87,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Application/Sonata/UserBundle/Entity/User.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -157,7 +141,6 @@
         <option value="$PROJECT_DIR$/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/app/config/parameters.yml.dist" />
         <option value="$PROJECT_DIR$/web/app_dev.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/Base.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/Company.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/ContactBase.php" />
@@ -166,6 +149,7 @@
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/User.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/Contact.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/Person.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
       </list>
     </option>
   </component>
@@ -483,7 +467,7 @@
       <workItem from="1460052161820" duration="365000" />
       <workItem from="1460052661923" duration="829000" />
       <workItem from="1460053537196" duration="1085000" />
-      <workItem from="1460054642697" duration="153000" />
+      <workItem from="1460054642697" duration="200000" />
     </task>
     <task id="LOCAL-00001" summary="fix entites">
       <created>1460054710041</created>
@@ -492,11 +476,18 @@
       <option name="project" value="LOCAL" />
       <updated>1460054710041</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix entites">
+      <created>1460054797979</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1460054797979</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2432000" />
+    <option name="totallyTimeSpent" value="2479000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -539,9 +530,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
-          <folding>
-            <element signature="e#40#99#0#PHP" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -649,9 +638,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#40#99#0#PHP" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -707,9 +694,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#40#99#0#PHP" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -785,28 +770,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
-          <folding>
-            <element signature="e#40#99#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Base.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="19" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Company.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1044">
-          <caret line="60" column="45" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="45" />
           <folding />
         </state>
       </provider>
@@ -867,6 +834,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Company.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="60" column="45" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
           <folding />
         </state>
       </provider>
