@@ -17,6 +17,7 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Security;
 use Symfony\Component\Yaml\Dumper;
+use Symfony\Component\Yaml\Yaml;
 
 class DefaultController extends Controller
 {
@@ -30,7 +31,11 @@ class DefaultController extends Controller
      */
     public function indexAction(Request $request)
     {
-//        if ($request->getMethod() == 'POST') {
+        $filename = '/var/www/devhmcrm/app/logs/clients.yml';
+
+        $yaml = Yaml::parse(file_get_contents($filename));
+
+        var_dump($yaml);exit;
 
         $array = array(
             'phone' => $request->get('phone'),
@@ -43,13 +48,8 @@ class DefaultController extends Controller
 
         $fs = new Filesystem();
 
-        $fs->dumpFile('/var/www/devhmcrm/app/logs/clients.yml', $yaml);
-
-//        $fs->exists('/var/www/devhmcrm/logs/clients.yml');
-//
-//        file_put_contents('/var/www/devhmcrm/logs/clients.yml', $yaml);
+        $fs->dumpFile($filename, $yaml);
 
         return new JsonResponse(true);
-//        }
     }
 }
