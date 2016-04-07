@@ -16,6 +16,7 @@ use AppBundle\Entity\Lead;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Security;
+use Symfony\Component\Yaml\Dumper;
 
 class DefaultController extends Controller
 {
@@ -31,29 +32,18 @@ class DefaultController extends Controller
     {
 //        if ($request->getMethod() == 'POST') {
 
-            $lead = new Lead();
-            if ($request->get('phone')) {
+        $array = array(
+            'phone' => $request->get('phone'),
+            'datetime' => date('Y-m-d H:i:s', time()),
+        );
 
-                $lead->setLastName($request->get('name', 'healthyfood'));
-                $lead->setEmail($request->get('email', 'info@healthmarketing.me'));
-                $lead->setMobilePhone($request->get('phone'));
+        $dumper = new Dumper();
 
-                $user = $this->getDoctrine()
-                    ->getRepository('ApplicationSonataUserBundle:User')
-                    ->find(7);
+        $yaml = $dumper->dump($array);
 
-                if ($user) {
-                    $lead->setUser($user);
-                } else {
-                    throw new EntityNotFoundException();
-                }
+        file_put_contents('/var/www/clients.yml', $yaml);
 
-                $em = $this->getDoctrine()->getManager();
-                $em->persist($lead);
-                $em->flush();
-
-                return new JsonResponse(true);
-            }
+        return new JsonResponse(true);
 //        }
     }
 }
