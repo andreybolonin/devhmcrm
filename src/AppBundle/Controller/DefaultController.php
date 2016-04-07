@@ -45,8 +45,8 @@ class DefaultController extends Controller
         $dumper = new Dumper();
         $fs = new Filesystem();
 
-        $yaml = $dumper->dump($array);
-        
+        $yaml = $dumper->dump($array, 1);
+
         $fs->dumpFile($filename, $yaml);
 
         return new JsonResponse(true);
