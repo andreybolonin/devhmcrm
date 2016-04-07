@@ -33,21 +33,20 @@ class DefaultController extends Controller
     {
         $filename = '/var/www/devhmcrm/app/logs/clients.yml';
 
-        $yaml = Yaml::parse(file_get_contents($filename));
+        $array = Yaml::parse(file_get_contents($filename));
 
-        var_dump($yaml);exit;
+//        var_dump($yaml);exit;
 
-        $array = array(
+        $array[] = [
             'phone' => $request->get('phone'),
             'datetime' => date('Y-m-d H:i:s', time()),
-        );
+        ];
 
         $dumper = new Dumper();
-
-        $yaml = $dumper->dump($array);
-
         $fs = new Filesystem();
 
+        $yaml = $dumper->dump($array);
+        
         $fs->dumpFile($filename, $yaml);
 
         return new JsonResponse(true);
