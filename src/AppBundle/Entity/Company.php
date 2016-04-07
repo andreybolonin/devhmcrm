@@ -1,6 +1,6 @@
 <?php
 
-namespace EasymedBundle\Entity;
+namespace AppBundle\Entity;
 
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
@@ -58,7 +58,7 @@ class Company extends ContactBase
     protected $user;
 
     /**
-     * @ORM\OneToMany(targetEntity="EasymedBundle\Entity\Contact", mappedBy="company", cascade={"all"}, orphanRemoval=true)
+     * @ORM\OneToMany(targetEntity="AppBundle\Entity\Contact", mappedBy="company", cascade={"all"}, orphanRemoval=true)
      */
     protected $contacts;
 

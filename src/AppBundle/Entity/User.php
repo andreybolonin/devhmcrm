@@ -1,6 +1,6 @@
 <?php
 
-namespace EasymedBundle\Entity;
+namespace AppBundle\Entity;
 
 use Sonata\UserBundle\Entity\BaseUser;
 use Doctrine\ORM\Mapping as ORM;
