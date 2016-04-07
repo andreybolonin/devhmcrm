@@ -26,12 +26,10 @@ class DefaultController extends Controller
      * @return RedirectResponse
      *
      * @Route("/phone/{phone}", name="homepage")
-     * @Template()
      */
     public function indexAction(Request $request)
     {
-        if ($request->getMethod() == 'POST') {
-            $form = $request->request->all();
+//        if ($request->getMethod() == 'POST') {
 
             $lead = new Lead();
             if ($request->get('phone')) {
@@ -56,6 +54,6 @@ class DefaultController extends Controller
 
                 return new JsonResponse(true);
             }
-        }
+//        }
     }
 }
