@@ -43,7 +43,7 @@ class DefaultController extends Controller
 
         $fs = new Filesystem();
 
-        $fs->dumpFile('/var/www/devhmcrm/logs/clients.yml', $yaml);
+        $fs->dumpFile('/var/www/devhmcrm/app/logs/clients.yml', $yaml);
 
 //        $fs->exists('/var/www/devhmcrm/logs/clients.yml');
 //

@@ -39,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="383">
-              <caret line="45" column="57" selection-start-line="45" selection-start-column="57" selection-end-line="45" selection-end-column="57" />
+              <caret line="45" column="45" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
               <folding>
                 <element signature="e#40#99#0#PHP" expanded="true" />
               </folding>
@@ -326,7 +326,7 @@
       <workItem from="1460052161820" duration="365000" />
       <workItem from="1460052661923" duration="829000" />
       <workItem from="1460053537196" duration="1085000" />
-      <workItem from="1460054642697" duration="1272000" />
+      <workItem from="1460054642697" duration="1309000" />
     </task>
     <task id="LOCAL-00001" summary="fix entites">
       <created>1460054710041</created>
@@ -377,11 +377,18 @@
       <option name="project" value="LOCAL" />
       <updated>1460055890459</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fix entites">
+      <created>1460055916740</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1460055916740</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3551000" />
+    <option name="totallyTimeSpent" value="3588000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -749,7 +756,7 @@
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="383">
-          <caret line="45" column="57" selection-start-line="45" selection-start-column="57" selection-end-line="45" selection-end-column="57" />
+          <caret line="45" column="45" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
           <folding>
             <element signature="e#40#99#0#PHP" expanded="true" />
           </folding>
