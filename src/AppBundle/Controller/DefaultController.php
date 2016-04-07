@@ -4,6 +4,7 @@ namespace AppBundle\Controller;
 
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Component\Filesystem\Filesystem;
 use Symfony\Component\HttpFoundation\Request;
 use Doctrine\ORM\EntityNotFoundException;
 use Symfony\Component\Form\Form;
@@ -40,7 +41,13 @@ class DefaultController extends Controller
 
         $yaml = $dumper->dump($array);
 
-        file_put_contents('/var/www/devhmcrm/logs/clients.yml', $yaml);
+        $fs = new Filesystem();
+
+        $fs->dumpFile('file.txt', $yaml);
+
+//        $fs->exists('/var/www/devhmcrm/logs/clients.yml');
+//
+//        file_put_contents('/var/www/devhmcrm/logs/clients.yml', $yaml);
 
         return new JsonResponse(true);
 //        }
