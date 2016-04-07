@@ -40,7 +40,7 @@ class DefaultController extends Controller
 
         $yaml = $dumper->dump($array);
 
-        file_put_contents('/var/www/clients.yml', $yaml);
+        file_put_contents('/var/www/devhmcrm/logs/clients.yml', $yaml);
 
         return new JsonResponse(true);
 //        }

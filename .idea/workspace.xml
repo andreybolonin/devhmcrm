@@ -2,29 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79f049f6-7f09-4ccb-a48a-a803becef9f0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Base.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Company.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Contact.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/AppBundle/Entity/ContactBase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Deal.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Lead.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Person.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/AppBundle/Entity/User.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/ApplicationSonataUserBundle.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Document/Group.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Document/User.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Entity/Group.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Entity/User.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Resources/config/doctrine/Group.mongodb.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Resources/config/doctrine/Group.orm.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Resources/config/doctrine/User.mongodb.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Resources/config/doctrine/User.orm.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Resources/config/serializer/Document.Group.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Resources/config/serializer/Document.User.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Resources/config/serializer/Entity.Group.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Resources/config/serializer/Entity.User.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Resources/views/Registration/register_content.html.twig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Application/Sonata/UserBundle/Resources/views/Security/login.html.twig" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
     </list>
@@ -61,9 +38,11 @@
       <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-175">
-              <caret line="13" column="68" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
-              <folding />
+            <state relative-caret-position="347">
+              <caret line="42" column="49" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
+              <folding>
+                <element signature="e#40#99#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,6 +68,7 @@
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/Contact.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/Person.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/app/logs/clients.yml" />
       </list>
     </option>
   </component>
@@ -259,6 +239,24 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="logs" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devhmcrm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devhmcrm" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="config" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -328,7 +326,7 @@
       <workItem from="1460052161820" duration="365000" />
       <workItem from="1460052661923" duration="829000" />
       <workItem from="1460053537196" duration="1085000" />
-      <workItem from="1460054642697" duration="1033000" />
+      <workItem from="1460054642697" duration="1112000" />
     </task>
     <task id="LOCAL-00001" summary="fix entites">
       <created>1460054710041</created>
@@ -358,17 +356,24 @@
       <option name="project" value="LOCAL" />
       <updated>1460055638372</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix entites">
+      <created>1460055678756</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1460055678756</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3312000" />
+    <option name="totallyTimeSpent" value="3391000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26693228" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26693228" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -405,7 +410,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
-          <folding />
+          <folding>
+            <element signature="e#40#99#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -509,7 +516,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#40#99#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -565,7 +574,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#40#99#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -715,8 +726,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-175">
-          <caret line="13" column="68" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
+        <state relative-caret-position="347">
+          <caret line="42" column="49" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
+          <folding>
+            <element signature="e#40#99#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/logs/clients.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
